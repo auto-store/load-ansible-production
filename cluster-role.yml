@@ -2,4 +2,4 @@
 - name: Deploy ONTAP Cluster config
   hosts: localhost
   roles:
-    - role: /etc/ansible/lod-ansible-production/cluster
+    - role: /lod-ansible-production/cluster
