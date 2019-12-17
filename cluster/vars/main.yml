@@ -18,6 +18,7 @@ Create_LIFS:
 Volumes:
     - { Name: ansible_created, Size: 1, Which_SVM: svm2, aggregate_for_vol: aggr1 }
     - { Name: cam, Size: 1, Which_SVM: svm2, aggregate_for_vol: aggr1 }
+    - { Name: moto, Size: 1, Which_SVM: svm2, aggregate_for_vol: aggr1 }
 
 ##----> Vaulted Credentials 
 netapp_hostname: 192.168.0.101
